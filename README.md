@@ -29,13 +29,6 @@ A multi-threaded client-server application built in C using POSIX APIs. It allow
 - `logger.c` – Thread-safe logging
 - `server.h` – Shared declarations and configuration
 
-## Build
-
-gcc server.c executor.c logger.c -o server -pthread
-gcc client.c -o client
-
-
-
 ## How to Run
 
 ### 1. Compile the server
@@ -46,5 +39,16 @@ Open a terminal and run:
 Open another terminal:
 ./client
 
+
 Select the programming language and provide the source code.
+
+
+## Build
+```bash
+gcc server.c executor.c logger.c -o server -pthread
+gcc client.c -o client
+
+
+
+
 
