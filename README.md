@@ -31,9 +31,9 @@ A multi-threaded client-server application built in C using POSIX APIs. It allow
 
 ## Build
 
-```bash
 gcc server.c executor.c logger.c -o server -pthread
 gcc client.c -o client
+
 
 
 ## How to Run
