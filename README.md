@@ -31,11 +31,12 @@ A multi-threaded client-server application built in C using POSIX APIs. It allow
 
 ## How to Run
 
-### 1. Compile the server
+### 1. Server
 
 Open a terminal and run:
 ./server
 
+### 2. Client
 Open another terminal:
 ./client
 
