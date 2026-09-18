@@ -34,3 +34,17 @@ A multi-threaded client-server application built in C using POSIX APIs. It allow
 ```bash
 gcc server.c executor.c logger.c -o server -pthread
 gcc client.c -o client
+
+
+## How to Run
+
+### 1. Compile the server
+
+Open a terminal and run:
+./server
+
+Open another terminal:
+./client
+
+Select the programming language and provide the source code.
+
